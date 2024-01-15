@@ -42,6 +42,12 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install -y sublime-text
 
+BLUE "Installing Snap"
+sudo apt install -y snap
+
+BLUE "Installing Htop"
+sudo apt install -y htop
+
 BLUE "Installing terminator..."
 sudo apt install -y terminator
 
